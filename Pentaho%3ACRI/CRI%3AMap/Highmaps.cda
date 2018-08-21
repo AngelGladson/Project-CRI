@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><CDADescriptor>
+  <DataSources>
+    <Connection id="table" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+  </DataSources>
+  <DataAccess access="public" connection="table" id="table" type="sql">
+    <Name>table</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters>
+      <Parameter default="cityPara" name="cityPara" type="String"/>
+    </Parameters>
+    <Query><![CDATA[SELECT 
+service_station_name,employee_name,status,CONCAT(Total, ' ', 'DAYS') AS 'Total Days'
+FROM(SELECT 
+D.service_station_name,
+C.employee_name,
+CASE
+WHEN status = 'closed' THEN DATEDIFF(E.updated_at, E.created_at)
+ELSE DATEDIFF(CURDATE(), E.created_at)
+END AS Total,
+E.status,
+'DAYS'
+FROM
+states A
+INNER JOIN
+branches B ON A.id = B.state_id
+INNER JOIN
+tses C ON B.id = C.branch_id
+INNER JOIN
+ascs D ON B.id = D.branch_id
+INNER JOIN
+customers E ON D.contact_number = E.serv_cent_mob_no
+WHERE
+B.branch_name=${cityPara}
+GROUP BY D.service_station_name, C.employee_name , Total,E.status
+ORDER BY field(status,'Unattended','Open','Closed','NotApplicable','Assigned') , Total ) as D;]]></Query>
+  </DataAccess>
+</CDADescriptor>

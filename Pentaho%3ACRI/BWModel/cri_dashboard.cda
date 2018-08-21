@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?><CDADescriptor>
+  <DataSources>
+    <Connection id="state" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="branch" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="service" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="text_1" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="text_2" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="text_3" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="topPercentage_1" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="topPercentage_2" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="topPercentage_3" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="barChart_1" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="barChart_2" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="barChart_3" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="issuesCount_1" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="issuesCount_2" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="issuesCount_3" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="issuesCountPercentage_1" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="issuesCountPercentage_2" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="issuesCountPercentage_3" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="lineChart_1" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="lineChart_2" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+    <Connection id="table" type="sql.jdbc">
+      <Driver>com.mysql.jdbc.Driver</Driver>
+      <Pass>candy@345</Pass>
+      <Url>jdbc:mysql://137.116.150.217:3306/cri_development</Url>
+      <User>root</User>
+    </Connection>
+  </DataSources>
+  <DataAccess access="public" connection="state" id="state" type="sql">
+    <Name>state</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters/>
+    <Query><![CDATA[select 'ALL STATES' from states union select states_name from states;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="branch" id="branch" type="sql">
+    <Name>branch</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters>
+      <Parameter default="stateName" name="stateName" type="String"/>
+    </Parameters>
+    <Query><![CDATA[select 'ALL BRANCHES' from branches
+union
+SELECT 
+    A.branch_name
+FROM
+    branches A
+        INNER JOIN
+    states B ON A.state_id = B.id
+WHERE
+    B.states_name = CASE
+                WHEN ${stateName} = 'All States' THEN states_name
+                ELSE ${stateName}
+            END;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="service" id="service" type="sql">
+    <Name>service</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters>
+      <Parameter default="stateName" name="stateName" type="String"/>
+      <Parameter default="branchName" name="branchName" type="String"/>
+    </Parameters>
+    <Query><![CDATA[select 'ALL SERVICE CENTER' from branches
+union
+SELECT 
+    C.service_station_name
+FROM
+    branches A
+        INNER JOIN
+    states B ON A.state_id = B.id
+        INNER JOIN
+    ascs C ON C.branch_id = A.id
+WHERE
+        B.states_name = CASE
+                WHEN ${stateName} = 'ALL STATES' THEN states_name
+                ELSE ${stateName}
+        END
+        AND 
+        A.branch_name = CASE
+                WHEN ${branchName} = 'ALL BRANCHES' THEN branch_name
+                ELSE ${branchName}
+        END]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="text_1" id="text_1" type="sql">
+    <Name>text_1</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters>
+      <Parameter default="stateName" name="stateName" type="String"/>
+      <Parameter default="branchName" name="branchName" type="String"/>
+      <Parameter default="serviceStationName" name="serviceStationName" type="String"/>
+      <Parameter default="fromDate" name="fromDate" type="String"/>
+      <Parameter default="toDate" name="toDate" type="String"/>
+    </Parameters>
+    <Query><![CDATA[SELECT 
+    D.service_station_name
+FROM
+    states A
+        INNER JOIN
+    branches B ON A.id = B.state_id
+        INNER JOIN
+    ascs D ON D.branch_id = B.id
+        INNER JOIN
+    customers E ON D.contact_number = E.serv_cent_mob_no
+WHERE
+ A.states_name = CASE
+                WHEN ${stateName} = 'ALL STATES' THEN states_name
+                ELSE ${stateName}
+            END
+        AND B.branch_name = CASE
+        WHEN ${branchName} = 'ALL BRANCHES' THEN branch_name
+        ELSE ${branchName}
+    END
+        AND D.service_station_name = CASE
+        WHEN ${serviceStationName} = 'ALL SERVICE CENTER' THEN service_station_name
+        ELSE ${serviceStationName}
+    END
+        AND E.created_at >= ${fromDate}
+        AND E.updated_at < ${toDate}
+        AND E.status = 'Closed'
+ORDER BY CASE
+    WHEN status = 'closed' THEN DATEDIFF(E.updated_at, E.created_at)
+    ELSE DATEDIFF(CURDATE(), E.created_at)
+END
+LIMIT 1;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="text_2" id="text_2" type="sql">
+    <Name>text_2</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters>
+      <Parameter default="stateName" name="stateName" type="String"/>
+      <Parameter default="branchName" name="branchName" type="String"/>
+      <Parameter default="serviceStationName" name="serviceStationName" type="String"/>
+      <Parameter default="fromDate" name="fromDate" type="String"/>
+      <Parameter default="toDate" name="toDate" type="String"/>
+    </Parameters>
+    <Query><![CDATA[SELECT 
+    C.employee_name
+FROM
+  states A 
+    Inner join
+  branches B on A.id=B.state_id
+	Inner join 
+  tses C on B.id=C.branch_id
+    Inner Join
+  ascs D on B.id=D.branch_id
+	Inner Join
+  customers E on D.contact_number=E.serv_cent_mob_no  
+WHERE
+ A.states_name = CASE
+                WHEN ${stateName} = 'ALL STATES' THEN states_name
+                ELSE ${stateName}
+            END
+        AND B.branch_name = CASE
+        WHEN ${branchName}  = 'ALL BRANCHES' THEN branch_name
+        ELSE ${branchName} 
+    END
+        AND D.service_station_name = CASE
+        WHEN ${serviceStationName} = 'ALL SERVICE CENTER' THEN service_station_name
+        ELSE ${serviceStationName}
+    END
+	and
+    E.created_at>= ${fromDate} and
+    E.updated_at<=${toDate} and
+    (E.status = 'Closed'
+        OR E.status = 'Assigned') 
+        GROUP BY C.employee_name order by count(E.status) desc
+        limit 1;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="text_3" id="text_3" type="sql">
+    <Name>text_3</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters>
+      <Parameter default="stateName" name="stateName" type="String"/>
+      <Parameter default="branchName" name="branchName" type="String"/>
+      <Parameter default="serviceStationName" name="serviceStationName" type="String"/>
+      <Parameter default="fromDate" name="fromDate" type="String"/>
+      <Parameter default="toDate" name="toDate" type="String"/>
+    </Parameters>
+    <Query><![CDATA[select count(E.status) As Issues from 
+    states A
+        INNER JOIN
+    branches B ON A.id = B.state_id
+        INNER JOIN
+    ascs D ON D.branch_id = B.id
+        INNER JOIN
+    customers E ON D.contact_number = E.serv_cent_mob_no
+WHERE
+ A.states_name = CASE
+                WHEN ${stateName}  = 'ALL STATES' THEN states_name
+                ELSE ${stateName} 
+            END
+        AND B.branch_name = CASE
+        WHEN ${branchName} = 'ALL BRANCHES' THEN branch_name
+        ELSE ${branchName}
+    END
+        AND D.service_station_name = CASE
+        WHEN ${serviceStationName} = 'ALL SERVICE CENTER' THEN service_station_name
+        ELSE ${serviceStationName}
+    END
+        AND E.created_at >= ${fromDate}
+        AND E.updated_at < ${toDate}
+        AND E.status='Closed';]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="topPercentage_1" id="topPercentage_1" type="sql">
+    <Name>topPercentage_1</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters>
+      <Parameter default="stateName" name="stateName" type="String"/>
+      <Parameter default="branchName" name="branchName" type="String"/>
+      <Parameter default="serviceStationName" name="serviceStationName" type="String"/>
+      <Parameter default="fromDate" name="fromDate" type="String"/>
+      <Parameter default="toDate" name="toDate" type="String"/>
+    </Parameters>
+    <Query><![CDATA[SELECT 
+    CONCAT(ROUND(((SELECT 
+                            COUNT(E.status)
+                        FROM
+                            customers E
+                                INNER JOIN
+                            ascs D ON E.serv_cent_mob_no = D.contact_number
+                                INNER JOIN
+                            branches B ON D.branch_id = B.id
+                                INNER JOIN
+                            states A ON B.state_id = A.id
+    					WHERE
+							 A.states_name = CASE
+											WHEN ${stateName} = 'ALL STATES' THEN states_name
+											ELSE ${stateName}
+										END
+									AND B.branch_name = CASE
+									WHEN ${branchName} = 'ALL BRANCHES' THEN branch_name
+									ELSE ${branchName}
+								END
+									AND D.service_station_name = CASE
+									WHEN ${serviceStationName} = 'ALL SERVICE CENTER' THEN service_station_name
+									ELSE ${serviceStationName}
+								END
+                           AND
+					   status = 'Closed' 
+						   AND E.created_at >= ${fromDate}
+						AND E.updated_at < ${toDate}) / COUNT(status) * 100),
+												2),
+										'%') AS percentage
+							FROM
+								customers E;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="topPercentage_2" id="topPercentage_2" type="sql">
+    <Name>topPercentage_2</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters>
+      <Parameter default="stateName" name="stateName" type="String"/>
+      <Parameter default="branchName" name="branchName" type="String"/>
+      <Parameter default="serviceStationName" name="serviceStationName" type="String"/>
+      <Parameter default="fromDate" name="fromDate" type="String"/>
+      <Parameter default="toDate" name="toDate" type="String"/>
+    </Parameters>
+    <Query><![CDATA[SELECT 
+    CONCAT(ROUND(((SELECT count(E.status)
+                        FROM
+                            customers E
+                                INNER JOIN
+                            ascs D ON E.serv_cent_mob_no = D.contact_number
+                                INNER JOIN
+                            branches B ON D.branch_id = B.id
+                                INNER JOIN
+                            states A ON B.state_id = A.id
+    						WHERE
+									 A.states_name = CASE
+													WHEN ${stateName} = 'ALL STATES' THEN states_name
+													ELSE ${stateName}
+												END
+											AND 
+									B.branch_name = CASE
+											WHEN ${branchName} = 'ALL BRANCHES' THEN branch_name
+											ELSE ${branchName}
+										END
+											AND 
+									D.service_station_name = CASE
+											WHEN ${serviceStationName} = 'ALL SERVICE CENTER' THEN service_station_name
+											ELSE ${serviceStationName}
+										END
+								 AND (status =  'Assigned' or status= 'Closed')
+                                 AND E.created_at >= ${fromDate}
+            					AND E.updated_at <= ${toDate}) / COUNT(status) * 100),
+                    2),
+            '%') AS percentage
+FROM
+    customers E ;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="topPercentage_3" id="topPercentage_3" type="sql">
+    <Name>topPercentage_3</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters>
+      <Parameter default="stateName" name="stateName" type="String"/>
+      <Parameter default="branchName" name="branchName" type="String"/>
+      <Parameter default="serviceStationName" name="serviceStationName" type="String"/>
+      <Parameter default="fromDate" name="fromDate" type="String"/>
+      <Parameter default="toDate" name="toDate" type="String"/>
+    </Parameters>
+    <Query><![CDATA[SELECT 
+    CONCAT(Total, ' ', 'days') AS 'Total Days'
+FROM
+    (SELECT 
+        SUM(DATEDIFF(E.updated_at, E.created_at)) AS Total, 'days'
+        From
+        states A
+        INNER JOIN
+    branches B ON A.id = B.state_id
+        INNER JOIN
+    ascs D ON D.branch_id = B.id
+        INNER JOIN
+    customers E ON D.contact_number = E.serv_cent_mob_no
+    WHERE
+    	A.states_name = CASE
+						WHEN ${stateName} = 'ALL STATES' THEN states_name
+						ELSE ${stateName}
+					END
+				AND 
+		B.branch_name = CASE
+				WHEN ${branchName} = 'ALL BRANCHES' THEN branch_name
+				ELSE ${branchName}
+			END
+				AND 
+		D.service_station_name = CASE
+			WHEN ${serviceStationName} = 'ALL SERVICE CENTER' THEN service_station_name
+			ELSE ${serviceStationName}
+		END
+        AND E.created_at >= ${fromDate}
+        AND E.updated_at < ${toDate}
+        AND E.status='Closed') AS T;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="barChart_1" id="barChart_1" type="sql">
+    <Name>barChart_1</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters>
+      <Parameter default="stateName" name="stateName" type="String"/>
+      <Parameter default="branchName" name="branchName" type="String"/>
+      <Parameter default="serviceStationName" name="serviceStationName" type="String"/>
+      <Parameter default="fromDate" name="fromDate" type="String"/>
+      <Parameter default="toDate" name="toDate" type="String"/>
+    </Parameters>
+    <Query><![CDATA[SELECT 
+   E.status ,count(E.status) As Issues
+FROM
+    states A
+        INNER JOIN
+    branches B ON A.id = B.state_id
+        INNER JOIN
+    ascs D ON D.branch_id = B.id
+        INNER JOIN
+    customers E ON D.contact_number = E.serv_cent_mob_no
+WHERE
+        A.states_name = CASE
+                WHEN ${stateName} = 'ALL STATES' THEN states_name
+                ELSE ${stateName}
+            END
+         AND 
+		B.branch_name = CASE
+        WHEN ${branchName} = 'ALL BRANCHES' THEN branch_name
+        ELSE ${branchName}
+    END
+         AND 
+		D.service_station_name = CASE
+        WHEN ${serviceStationName} = 'ALL SERVICE CENTER' THEN service_station_name
+        ELSE ${serviceStationName}    
+        END
+         AND 
+    	E.created_at >= ${fromDate}
+        AND E.updated_at < ${toDate}
+        group by E.status order by count(E.status) asc;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="barChart_2" id="barChart_2" type="sql">
+    <Name>barChart_2</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters>
+      <Parameter default="stateName" name="stateName" type="String"/>
+      <Parameter default="branchName" name="branchName" type="String"/>
+      <Parameter default="serviceStationName" name="serviceStationName" type="String"/>
+      <Parameter default="fromDate" name="fromDate" type="String"/>
+      <Parameter default="toDate" name="toDate" type="String"/>
+    </Parameters>
+    <Query><![CDATA[SELECT 
+    C.employee_name,
+    COUNT(E.status) As Performance,
+    E.status
+FROM
+    states A
+        INNER JOIN
+    branches B ON A.id = B.state_id
+        INNER JOIN
+    tses C ON B.id = C.branch_id
+        INNER JOIN
+    ascs D ON D.branch_id = B.id
+        INNER JOIN
+    customers E ON D.contact_number = E.serv_cent_mob_no
+WHERE
+    	 A.states_name = CASE
+						WHEN ${stateName} = 'ALL STATES' THEN states_name
+						ELSE ${stateName}
+					END
+				AND 
+		B.branch_name = CASE
+				WHEN ${branchName} = 'ALL BRANCHES' THEN branch_name
+				ELSE ${branchName}
+			END
+				AND 
+		D.service_station_name = CASE
+        WHEN ${serviceStationName} = 'ALL SERVICE CENTER' THEN service_station_name
+        ELSE ${serviceStationName}
+    END
+        AND E.created_at >= ${fromDate}
+        AND E.updated_at < ${toDate}
+        AND E.status='Closed'
+GROUP BY C.employee_name ,E.status
+ORDER BY Performance limit 5;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="barChart_3" id="barChart_3" type="sql">
+    <Name>barChart_3</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters>
+      <Parameter default="stateName" name="stateName" type="String"/>
+      <Parameter default="branchName" name="branchName" type="String"/>
+      <Parameter default="serviceStationName" name="serviceStationName" type="String"/>
+      <Parameter default="fromDate" name="fromDate" type="String"/>
+      <Parameter default="toDate" name="toDate" type="String"/>
+    </Parameters>
+    <Query><![CDATA[SELECT 
+    D.pin_code, COUNT(E.status) as 'NotApplicable'
+FROM
+    states A
+        INNER JOIN
+    branches B ON A.id = B.state_id
+        INNER JOIN
+    ascs D ON D.branch_id = B.id
+        INNER JOIN
+    customers E ON E.serv_cent_mob_no = D.contact_number
+WHERE
+    	 A.states_name = CASE
+						WHEN ${stateName} = 'ALL STATES' THEN states_name
+						ELSE ${stateName}
+					END
+				AND 
+		B.branch_name = CASE
+				WHEN ${branchName} = 'ALL BRANCHES' THEN branch_name
+				ELSE ${branchName}
+			END
+				AND 
+		D.service_station_name = CASE
+        WHEN ${serviceStationName} = 'ALL SERVICE CENTER' THEN service_station_name
+        ELSE ${serviceStationName}
+			END
+				AND 
+        status = 'NotApplicable'
+        AND E.created_at >= ${fromDate}
+        AND E.updated_at <  ${toDate}
+GROUP BY D.pin_code;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="issuesCount_1" id="issuesCount_1" type="sql">
+    <Name>issuesCount_1</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters/>
+    <Query><![CDATA[select count(status) as 'Total issue' from customers;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="issuesCount_2" id="issuesCount_2" type="sql">
+    <Name>issuesCount_2</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters/>
+    <Query><![CDATA[select count(status) as 'Total issue' from customers where status='open';]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="issuesCount_3" id="issuesCount_3" type="sql">
+    <Name>issuesCount_3</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters/>
+    <Query><![CDATA[select count(status) as 'Total issue' from customers where status='UnAttended';]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="issuesCountPercentage_1" id="issuesCountPercentage_1" type="sql">
+    <Name>issuesCountPercentage_1</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters/>
+    <Query><![CDATA[SELECT 
+    CONCAT(ROUND((COUNT(id) / COUNT(status) * 100)),
+            '%') AS percentage
+FROM
+    customers;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="issuesCountPercentage_2" id="issuesCountPercentage_2" type="sql">
+    <Name>issuesCountPercentage_2</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters/>
+    <Query><![CDATA[SELECT 
+    CONCAT(ROUND(((SELECT 
+                            COUNT(status)
+                        FROM
+                            customers
+                        WHERE
+                            status = 'open') / COUNT(status) * 100),
+                    2),
+            '%') AS percentage
+FROM
+    customers;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="issuesCountPercentage_3" id="issuesCountPercentage_3" type="sql">
+    <Name>issuesCountPercentage_3</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters/>
+    <Query><![CDATA[SELECT 
+    CONCAT(ROUND(((SELECT 
+                            COUNT(status)
+                        FROM
+                            customers
+                        WHERE
+                            status = 'unattended') / COUNT(status) * 100),
+                    2),
+            '%') AS percentage
+FROM
+    customers;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="lineChart_1" id="lineChart_1" type="sql">
+    <Name>lineChart_1</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters/>
+    <Query><![CDATA[SELECT 
+    D.status,count(D.status) as 'Total Issue By Country'
+FROM
+    customers D
+        INNER JOIN
+    ascs C ON D.serv_cent_mob_no = C.contact_number
+        INNER JOIN
+    branches A ON C.branch_id = A.id
+        INNER JOIN
+    states B ON A.state_id = B.id
+GROUP BY A.branch_name,D.status;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="lineChart_2" id="lineChart_2" type="sql">
+    <Name>lineChart_2</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters/>
+    <Query><![CDATA[SELECT 
+    extract(month from D.created_at) as Month,
+    C.service_station_name,D.status,
+    count(D.status) as 'Total Issue By SC'
+FROM
+    customers D
+        INNER JOIN
+    ascs C ON D.serv_cent_mob_no = C.contact_number
+        INNER JOIN
+    branches A ON C.branch_id = A.id
+        INNER JOIN
+    states B ON A.state_id = B.id
+GROUP BY C.service_station_name,D.status,Month
+order by Month;]]></Query>
+  </DataAccess>
+  <DataAccess access="public" connection="table" id="table" type="sql">
+    <Name>table</Name>
+    <Cache duration="3600" enabled="false"/>
+    <Columns/>
+    <Parameters>
+      <Parameter default="stateName" name="stateName" type="String"/>
+      <Parameter default="branchName" name="branchName" type="String"/>
+      <Parameter default="serviceStationName" name="serviceStationName" type="String"/>
+      <Parameter default="fromDate" name="fromDate" type="String"/>
+      <Parameter default="toDate" name="toDate" type="String"/>
+    </Parameters>
+    <Query><![CDATA[SELECT 
+    service_station_name,employee_name,status,CONCAT(Total, ' ', 'DAYS') AS 'Total Days'
+FROM(SELECT 
+    D.service_station_name,
+    C.employee_name,
+    CASE
+        WHEN status = 'closed' THEN DATEDIFF(E.updated_at, E.created_at)
+        ELSE DATEDIFF(CURDATE(), E.created_at)
+    END AS Total,
+    E.status,
+    'DAYS'
+FROM
+    states A
+        INNER JOIN
+    branches B ON A.id = B.state_id
+        INNER JOIN
+    tses C ON B.id = C.branch_id
+        INNER JOIN
+    ascs D ON B.id = D.branch_id
+        INNER JOIN
+    customers E ON D.contact_number = E.serv_cent_mob_no
+WHERE
+    	A.states_name = CASE
+                WHEN ${stateName} = 'ALL STATES' THEN states_name
+                ELSE ${stateName}
+            END
+         AND 
+		B.branch_name = CASE
+        WHEN ${branchName} = 'ALL BRANCHES' THEN branch_name
+        ELSE ${branchName}
+    END
+    AND 
+    	D.service_station_name = CASE
+        WHEN ${serviceStationName} = 'ALL SERVICE CENTER' THEN service_station_name
+        ELSE ${serviceStationName}   
+        END
+         AND 
+		E.created_at >= ${fromDate}
+        AND E.updated_at <= ${toDate}
+GROUP BY D.service_station_name, C.employee_name , Total,E.status
+ORDER BY field(status,'Unattended','Open','Closed','NotApplicable','Assigned') , Total ) as D;]]></Query>
+  </DataAccess>
+</CDADescriptor>

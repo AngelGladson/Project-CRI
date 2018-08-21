@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ExportManifest xmlns:ns2="http://www.pentaho.com/schema/">
+    <ExportManifestInformation exportDate="21-08-2018 04:52:21 UTC" exportBy="admin" rootFolder="/home/admin/Angel/" manifestVersion="2"/>
+    <ExportManifestEntity path="Pentaho:CRI">
+        <ExportManifestProperty>
+            <EntityMetaData name="Pentaho:CRI" createdDate="2018-08-20T05:59:16.779Z" isFolder="true" path="Pentaho:CRI" isHidden="false" isSchedulable="true" locale="en_US" title="Pentaho:CRI"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/BWModel">
+        <ExportManifestProperty>
+            <EntityMetaData name="BWModel" createdDate="2018-08-20T05:59:51.960Z" isFolder="true" path="Pentaho:CRI/BWModel" isHidden="false" isSchedulable="true" locale="en_US" title="BWModel"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/BWModel/cri_dashboard.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="cri_dashboard.cda" createdDate="2018-08-20T09:59:46.160Z" isFolder="false" path="Pentaho:CRI/BWModel/cri_dashboard.cda" isHidden="false" isSchedulable="true" locale="en_US" title="cri_dashboard"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/BWModel/cri_dashboard.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="cri_dashboard.cdfde" createdDate="2018-08-20T09:59:46.224Z" isFolder="false" path="Pentaho:CRI/BWModel/cri_dashboard.cdfde" isHidden="false" isSchedulable="true" locale="en_US" title="cri_dashboard.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/BWModel/cri_dashboard.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="cri_dashboard.wcdf" createdDate="2018-08-20T09:59:46.254Z" isFolder="false" path="Pentaho:CRI/BWModel/cri_dashboard.wcdf" isHidden="false" isSchedulable="true" locale="en_US" title="cri_dashboard.wcdf"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/BWModel/img">
+        <ExportManifestProperty>
+            <EntityMetaData name="img" createdDate="2018-08-20T06:02:02.838Z" isFolder="true" path="Pentaho:CRI/BWModel/img" isHidden="false" isSchedulable="true" locale="en_US" title="img"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/BWModel/img/logo.png">
+        <ExportManifestProperty>
+            <EntityMetaData name="logo.png" createdDate="2018-08-20T06:02:45.524Z" isFolder="false" path="Pentaho:CRI/BWModel/img/logo.png" isHidden="true" isSchedulable="true" locale="en_US" title="logo.png"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/BWModel/img/logo.svg">
+        <ExportManifestProperty>
+            <EntityMetaData name="logo.svg" createdDate="2018-08-20T06:03:16.256Z" isFolder="false" path="Pentaho:CRI/BWModel/img/logo.svg" isHidden="true" isSchedulable="true" locale="en_US" title="logo.svg"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/BWModel/img/mapReport.png">
+        <ExportManifestProperty>
+            <EntityMetaData name="mapReport.png" createdDate="2018-08-20T10:57:37.948Z" isFolder="false" path="Pentaho:CRI/BWModel/img/mapReport.png" isHidden="true" isSchedulable="true" locale="en_US" title="mapReport.png"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/CRI:Map">
+        <ExportManifestProperty>
+            <EntityMetaData name="CRI:Map" createdDate="2018-08-20T09:58:49.736Z" isFolder="true" path="Pentaho:CRI/CRI:Map" isHidden="false" isSchedulable="true" locale="en_US" title="CRI:Map"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/CRI:Map/Highmaps.cda">
+        <ExportManifestProperty>
+            <EntityMetaData name="Highmaps.cda" createdDate="2018-08-20T12:48:03.839Z" isFolder="false" path="Pentaho:CRI/CRI:Map/Highmaps.cda" isHidden="false" isSchedulable="true" locale="en_US" title="Highmaps"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/CRI:Map/Highmaps.cdfde">
+        <ExportManifestProperty>
+            <EntityMetaData name="Highmaps.cdfde" createdDate="2018-08-20T12:48:03.900Z" isFolder="false" path="Pentaho:CRI/CRI:Map/Highmaps.cdfde" isHidden="false" isSchedulable="true" locale="en_US" title="Highmaps.cdfde"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/CRI:Map/Highmaps.wcdf">
+        <ExportManifestProperty>
+            <EntityMetaData name="Highmaps.wcdf" createdDate="2018-08-20T12:48:03.930Z" isFolder="false" path="Pentaho:CRI/CRI:Map/Highmaps.wcdf" isHidden="false" isSchedulable="true" locale="en_US" title="Highmaps.wcdf"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/CRI:Map/img">
+        <ExportManifestProperty>
+            <EntityMetaData name="img" createdDate="2018-08-20T10:55:42.917Z" isFolder="true" path="Pentaho:CRI/CRI:Map/img" isHidden="false" isSchedulable="true" locale="en_US" title="img"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+    <ExportManifestEntity path="Pentaho:CRI/CRI:Map/img/chartReport.png">
+        <ExportManifestProperty>
+            <EntityMetaData name="chartReport.png" createdDate="2018-08-20T12:48:25.072Z" isFolder="false" path="Pentaho:CRI/CRI:Map/img/chartReport.png" isHidden="true" isSchedulable="true" locale="en_US" title="chartReport"/>
+        </ExportManifestProperty>
+        <ExportManifestProperty>
+            <EntityAcl>
+                <entriesInheriting>true</entriesInheriting>
+                <owner>admin</owner>
+                <ownerType>USER</ownerType>
+            </EntityAcl>
+        </ExportManifestProperty>
+    </ExportManifestEntity>
+</ns2:ExportManifest>
